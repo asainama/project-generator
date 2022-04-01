@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "colorette": "^2.0.16",
+    "inquirer": "^8.2.2"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.1"
+  },
+  "name": "project-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "javascript",
+    "react",
+    "flutter",
+    "symfony",
+    "node",
+    "commande line",
+    "project generator"
+  ],
+  "bugs":{
+    "url": "https://github.com/asainama/project-generator"
+  },
+  "bin": {
+    "clip" : "./index.js"
+  },
+  "preferGlobal": true,
+  "author": "Sylvain Aïnama",
+  "license": "MIT",
+  "description": "Cli for generate your project (Symfony, React, Javascript, Flutter) with pnpm, npm, yarn"
+}
